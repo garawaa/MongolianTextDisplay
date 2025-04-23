@@ -14,7 +14,6 @@ void setup() {
   tft.initR(INITR_BLACKTAB);
   tft.setRotation(1);
   tft.fillScreen(ST77XX_BLACK);
-
   mongolText.drawText(10, 40, "ФЦУЖЭНГШҮЗКЪЕЩ", ST77XX_GREEN);
   mongolText.drawText(10, 60, "ЙЫБӨАХРОЛДП", ST77XX_BLUE);
   mongolText.drawText(10, 80, "ЯЧЁСМИТЬВЮ", ST77XX_RED);

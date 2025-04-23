@@ -1,0 +1,39 @@
+{
+  "name": "MongolianTextDisplay",
+  "version": "1.0.0",
+  "description": "A library for displaying Mongolian text using bitmaps on TFT ST7735S displays.",
+  "keywords": [
+    "mongolian",
+    "bitmap",
+    "tft",
+    "display",
+    "font"
+  ],
+  "authors": [
+    {
+      "name": "Garawaa",
+      "email": "garawaa@gmail.com",
+      "url": "https://github.com/garawaa/MongolianTextDisplay",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "atmelavr",
+    "espressif8266",
+    "espressif32"
+  ],
+  "dependencies": [
+    "adafruit/Adafruit GFX Library",
+    "adafruit/Adafruit ST7735 and ST7789 Library"
+  ],
+  "export": {
+    "include": [
+      "bitmaps.cpp",
+      "bitmaps.h"
+    ]
+  }
+}
